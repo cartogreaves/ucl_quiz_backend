@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "FormApp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "FormApp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "FormApp"
+    }
+  }
+}
