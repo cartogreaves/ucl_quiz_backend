@@ -1,5 +1,4 @@
 function startDataUpload() {
-	alert ("start data upload");
 	var Question = document.getElementById("Question").value;
 	var AnswerOne = document.getElementById("AnswerOne").value;
 	var AnswerTwo = document.getElementById("AnswerTwo").value;
@@ -8,9 +7,10 @@ function startDataUpload() {
 	var Correct = document.getElementById("Correct").value;
 	var longitude = document.getElementById("longitude").value;
 	var latitude = document.getElementById("latitude").value;
-	alert(Question + " "+ AnswerOne + " \n"+ AnswerTwo + " " + AnswerThree + " " + AnswerFour + " " + Correct +" " + " \n" + longitude + " " + latitude);
 	var postString = "Question="+Question+"&AnswerOne="+AnswerOne+"&AnswerTwo="+AnswerTwo+"&AnswerThree="+AnswerThree+"&AnswerFour="+AnswerFour+"&Correct="+ Correct +"&latitude=" + latitude + "&longitude=" + longitude;
 	processData(postString);
+	alert ("Question Uploaded");
+	location.reload();
 
 }
 
