@@ -39,11 +39,6 @@
 
     <link rel="shortcut icon" href="images/favicon.png">
 
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
@@ -51,7 +46,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
     integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
     crossorigin=""/>
-
+    <!--     Font awesome svg library-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href=" ionicons.min.css">
     <link rel="stylesheet" href="leaflet.awesome-markers.css">
@@ -74,6 +69,7 @@
           <span class="mdl-layout-title">Question Creator</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-layout-spacer"></div>
+          <!--Header buttons-->
            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="" onclick='getQuestions(); return false' style='margin-right: 40px'>Current Questions
           </button>
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="startUpload" onclick="startDataUpload()" style='margin-right: 40px'>Upload
@@ -86,6 +82,7 @@
           </button>
         </div>
       </header>
+      <!--Left hand question form section-->
       <div class="demo-drawer mdl-layout__drawer mdl-color--white-900 mdl-color-text--black-50">
         <nav class="demo-navigation mdl-navigation mdl-color--white-800">
           <form action="#">
@@ -126,6 +123,7 @@
           </select>
         </nav>
       </div>
+      <!--Leaflet Map-->
       <main class="mdl-layout__content mdl-color--grey-100">
           <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
             <div id="mapid" style="width: 100%; height: 490px"></div>
