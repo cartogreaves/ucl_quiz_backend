@@ -6,5 +6,28 @@ All code within this repository acts as components for producing a fully functio
 
 The application works by presenting an interace with a draggable marker upon a map, coordinates are taken from the dragged marker and assigned to the form on the left hand side. The form on the left hand sign, contains MDL dynamic text fields for input of question, answer and correct answer information. Submission of question is made via the httpServer.js to the PostgreSQL database.
 
+<<<<<<< HEAD
 ## Annotated diagram
 ![alt text](https://github.com/RJHCarto/Questions/blob/master/ucesrh1/www/img/WebApp.PNG)
+=======
+## User Interface Diagram
+![alt text](https://github.com/RJHCarto/Questions/blob/master/ucesrh1/www/img/WebApp.PNG)
+
+The interface above is designed for a quiz master or application administrator. The question form is shown on the left, while both download of current questions and upload of new question buttons are in the top right corner of the application.
+
+### Workflow:
+1. Move map marker to desired question location.
+2. Input all question and answer fields on the left menu.
+3. Choose which answer is correct using the dropdown list.
+4. Upload question using 'Upload'.
+5. Move map marker to different location.
+6. Load current questions using 'Current Questions'.
+7. Consider creating next question marker point.
+
+## Repositories of interest
+Links to the following tools used for this application:
+- **[Node.js](https://github.com/nodejs)**
+- **[PhoneGap](https://github.com/phonegap)**
+- **[Material Design Lite](https://github.com/google/material-design-lite)**
+- **[Leaflet](https://github.com/Leaflet/Leaflet)**
+>>>>>>> 15e0d81552fffccb5eab4bf293e92d85832c000a
