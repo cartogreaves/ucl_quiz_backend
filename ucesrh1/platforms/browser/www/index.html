@@ -53,6 +53,8 @@
     crossorigin=""/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href=" ionicons.min.css">
+    <link rel="stylesheet" href="leaflet.awesome-markers.css">
     <style>
     #view-source {
       position: fixed;
@@ -71,8 +73,9 @@
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">Question Creator</span>
           <div class="mdl-layout-spacer"></div>
-          <div id="dataUploadResult"> </div>
           <div class="mdl-layout-spacer"></div>
+           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="" onclick='getQuestions(); return false' style='margin-right: 40px'>Current Questons
+          </button>
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="startUpload" onclick="startDataUpload()" style='margin-right: 40px'>Upload
           </button>
           <button class="mdl-button mdl-js-button mdl-button--icon" href="#" onclick="window.open('UserGuide.html','_system');">

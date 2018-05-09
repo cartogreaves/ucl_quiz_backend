@@ -36,8 +36,7 @@ html, body {
   z-index: -1;
 }
 .demo-drawer .demo-navigation {
-  color: rgba(0, 0, 0, 0.54) ;
-  z-index: 0;
+  z-index: -2;
   padding: 16px;
 }
 /* END iOS Safari specific workaround */
