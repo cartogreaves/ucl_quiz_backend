@@ -11,6 +11,7 @@ The application works by presenting an interace with a draggable marker upon a m
 
 The interface above is designed for a quiz master or application administrator. The question form is shown on the left, while both download of current questions and upload of new question buttons are in the top right corner of the application.
 
+### Workflow:
 1. Move map marker to desired question location.
 2. Input all question and answer fields on the left menu.
 3. Choose which answer is correct using the dropdown list.
