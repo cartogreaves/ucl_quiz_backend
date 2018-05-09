@@ -19,3 +19,10 @@ The interface above is designed for a quiz master or application administrator. 
 5. Move map marker to different location.
 6. Load current questions using 'Current Questions'.
 7. Consider creating next question marker point.
+
+## Repositories of interest
+Links to the following tools used for this application:
+- **[Node.js](https://github.com/nodejs)**
+- **[PhoneGap](https://github.com/phonegap)**
+- **[Material Design Lite](https://github.com/google/material-design-lite)**
+- **[Leaflet](https://github.com/Leaflet/Leaflet)**
