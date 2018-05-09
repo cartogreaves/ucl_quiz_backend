@@ -6,10 +6,6 @@ All code within this repository acts as components for producing a fully functio
 
 The application works by presenting an interace with a draggable marker upon a map, coordinates are taken from the dragged marker and assigned to the form on the left hand side. The form on the left hand sign, contains MDL dynamic text fields for input of question, answer and correct answer information. Submission of question is made via the httpServer.js to the PostgreSQL database.
 
-<<<<<<< HEAD
-## Annotated diagram
-![alt text](https://github.com/RJHCarto/Questions/blob/master/ucesrh1/www/img/WebApp.PNG)
-=======
 ## User Interface Diagram
 ![alt text](https://github.com/RJHCarto/Questions/blob/master/ucesrh1/www/img/WebApp.PNG)
 
@@ -30,4 +26,3 @@ Links to the following tools used for this application:
 - **[PhoneGap](https://github.com/phonegap)**
 - **[Material Design Lite](https://github.com/google/material-design-lite)**
 - **[Leaflet](https://github.com/Leaflet/Leaflet)**
->>>>>>> 15e0d81552fffccb5eab4bf293e92d85832c000a
